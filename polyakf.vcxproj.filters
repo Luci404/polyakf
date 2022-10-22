@@ -1,0 +1,44 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="glsl">
+      <UniqueIdentifier>{767f318b-9b66-4381-b9d7-922639c8c0e8}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="GLee.c" />
+    <ClCompile Include="polyakf.cpp" />
+    <ClCompile Include="tga.c" />
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="GLee.h" />
+    <ClInclude Include="tga.h" />
+  </ItemGroup>
+  <ItemGroup>
+    <CustomBuild Include="akf_v2n4.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="akf_v2n8.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="akf_v3n4.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="akf_v3n8.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="gauss.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="sst.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="tfm.glsl">
+      <Filter>glsl</Filter>
+    </CustomBuild>
+    <CustomBuild Include="krnlx4_32n4.tga" />
+    <CustomBuild Include="krnlx4_32n8.tga" />
+    <CustomBuild Include="test_1024x1024.tga" />
+    <CustomBuild Include="test_512x512.tga" />
+  </ItemGroup>
+</Project>
